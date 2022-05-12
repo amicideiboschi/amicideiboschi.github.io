@@ -10,8 +10,8 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: all
-upload_dir: main/images
-public_path: https://github.com/amicideiboschi/amicideiboschi.github.io/tree/main/images
+upload_dir: images
+public_path: images
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
