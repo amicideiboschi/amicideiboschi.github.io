@@ -7,12 +7,11 @@ sections:
 - type: jekyll-posts
   label: News ed Eventi
   create: all
-  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: main/images
+public_path: https://github.com/amicideiboschi/amicideiboschi.github.io/tree/main/images
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
