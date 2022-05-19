@@ -31,4 +31,5 @@ fields:
   label: Link
   description: Link all'evento/notizia
 pages:
+- _posts/Prova di notizia.md
 - index.html
