@@ -97,21 +97,21 @@ link: www.uselessweb.com
     
     {% for news_item in site.news %}
 
-    <div class="titolo verde">News ed eventi</div>
-    <div data-delay="3000" data-animation="slide" class="slider-news w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="true" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="1000" data-infinite="true">
-      <div class="mask w-slider-mask">
-        <div class="slide-news w-slide">
-          <div class="div-slide-single-news">
-            <div class="single-news">
-              <div class="div-immagine-news"><img src="images/Le-voci-nel-bosco.jpeg" loading="lazy" sizes="(max-width: 479px) 72vw, (max-width: 767px) 65vw, (max-width: 991px) 46vw, 28vw" srcset="images/Le-voci-nel-bosco.jpeg 500w, images/Le-voci-nel-bosco.jpeg 800w, images/Le-voci-nel-bosco.jpeg 940w" alt="" class="immagine-news"></div>
-              <div class="news-title">Le Voci nel Bosco</div>
-              <div class="news-text">30 Aprile - Bosco Grande<br></div>
-              <a href="https://docs.google.com/forms/d/1SlJbPcv4qU_XeGOV2y-Pr3yZqG26_VJ2W5FFIXA46fY/viewform?edit_requested=true" target="_blank" class="bottone-verde newsbutton w-button">Prenota qui!</a>
+      <div class="titolo verde">News ed eventi</div>
+      <div data-delay="3000" data-animation="slide" class="slider-news w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="true" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="1000" data-infinite="true">
+        <div class="mask w-slider-mask">
+          <div class="slide-news w-slide">
+            <div class="div-slide-single-news">
+              <div class="single-news">
+                <div class="div-immagine-news"><img src="{{ news_item.immagine }}" loading="lazy" sizes="(max-width: 479px) 72vw, (max-width: 767px) 65vw, (max-width: 991px) 46vw, 28vw" srcset="images/Le-voci-nel-bosco.jpeg 500w, images/Le-voci-nel-bosco.jpeg 800w, images/Le-voci-nel-bosco.jpeg 940w" alt="" class="immagine-news"></div>
+                <div class="{{ news_item.titolo }}"></div>
+                <div class="{{ news_item.testo }}"><br></div>
+                <a href="{{ news_item.link }}" target="_blank" class="bottone-verde newsbutton w-button">Prenota qui!</a>
+              </div>
             </div>
           </div>
-        </div>
 
-        {% for news_item in site.news %}
+    {% endfor %}
 
         
       </div>
