@@ -31,5 +31,4 @@ fields:
   label: Link
   description: Link all'evento/notizia
 pages:
-- _posts/2022-05-19-Prova di notizia.md
 - index.html
