@@ -2,15 +2,11 @@
 label: Homepage
 hide_body: false
 fields:
-- type: text
-  name: immagine
-  label: immagine
-- type: text
-  name: titolo
-  label: titolo
-- type: text
-  name: testo
-  label: testo
-- type: text
-  name: link
-  label: link
+- name: blocco-notizie
+  type: blocks
+  label: Blocco notizie
+  template_types:
+  - new-ed-eventi
+  config:
+    min: 
+    max: 
