@@ -30,5 +30,3 @@ fields:
     required: false
   label: Link
   description: Link all'evento/notizia
-pages:
-- index.html
