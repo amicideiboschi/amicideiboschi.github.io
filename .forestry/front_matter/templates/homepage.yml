@@ -1,0 +1,14 @@
+---
+label: Homepage
+hide_body: false
+fields:
+- name: blocco-notizie
+  type: blocks
+  label: Blocco notizie
+  template_types:
+  - new-ed-eventi
+  config:
+    min: 
+    max: 
+pages:
+- index.html
