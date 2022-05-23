@@ -30,3 +30,5 @@ fields:
     required: false
   label: Link
   description: Link all'evento/notizia
+pages:
+- _posts/Papera.md
