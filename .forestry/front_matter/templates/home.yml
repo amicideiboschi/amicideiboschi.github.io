@@ -1,0 +1,35 @@
+---
+label: home
+hide_body: false
+fields:
+- type: text
+  name: immagine
+  label: immagine
+- type: text
+  name: titolo
+  label: titolo
+- type: text
+  name: testo
+  label: testo
+- type: text
+  name: link
+  label: link
+- type: field_group_list
+  name: blocco-notizie
+  label: blocco-notizie
+  fields:
+  - type: text
+    name: template
+    label: template
+  - type: text
+    name: titolo
+    label: titolo
+  - type: text
+    name: testo
+    label: testo
+  - type: text
+    name: immagine
+    label: immagine
+  - type: text
+    name: link
+    label: link
