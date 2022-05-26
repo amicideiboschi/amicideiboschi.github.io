@@ -91,7 +91,7 @@
     <div data-delay="3000" data-animation="slide" class="slider-news w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="true" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="1000" data-infinite="true">
       <div class="mask w-slider-mask">
         
-        {% for news_item in site.news %}
+        {{% for news_item in site.news %}}
         
           <div class="slide-news w-slide">
             <div class="div-slide-single-news">
@@ -104,7 +104,7 @@
             </div>
           </div>
         
-        {% endfor %}
+        {{% endfor %}}
 
       <div class="w-slider-arrow-left">
         <div class="w-icon-slider-left"></div>
