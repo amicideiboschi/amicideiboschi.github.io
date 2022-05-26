@@ -31,3 +31,11 @@ fields:
   config:
     required: true
   label: Link
+- name: insert_title
+  type: blocks
+  label: Insert title
+  template_types:
+  - contenitore-notizie
+  config:
+    min: 
+    max: 
