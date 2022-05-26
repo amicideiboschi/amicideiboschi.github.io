@@ -8,7 +8,7 @@ sections:
   label: News ed Eventi
   create: all
   templates:
-  - new-ed-eventi
+  - notizie
 - type: jekyll-pages
   label: Pages
   create: all
