@@ -96,14 +96,10 @@
           <div class="slide-news w-slide">
             <div class="div-slide-single-news">
               <div class="single-news">
-                <div class="div-immagine-news">
-                  <img src="{{ news_item.immagine }}" loading="lazy" sizes="(max-width: 479px) 72vw, (max-width: 767px) 65vw, (max-width: 991px) 46vw, 28vw" srcset="images/Una-notte-alla-Vernavola-p-500.jpeg 500w, images/Una-notte-alla-Vernavola-p-800.jpeg 800w, images/Una-notte-alla-Vernavola.jpeg 940w" alt="" class="immagine-news"></div>
-                <div class="news-title"> 
-                  {{ news_item.titolo }} </div>
-                <div class="news-text"> 
-                  {{ news_item.testo }} </div>
-                <a href="{{ news_item.link }}" target="_blank" class="bottone-verde newsbutton w-button"> 
-                  {{ news_item.testo_bottone }} </div>
+                <div class="div-immagine-news"><img src=" {{ news_item.immagine }} " loading="lazy" sizes="(max-width: 479px) 72vw, (max-width: 767px) 65vw, (max-width: 991px) 46vw, 28vw" class="immagine-news"></div>
+                <div class="news-title"> {{ news_item.titolo }} </div>
+                <div class="news-text"> {{ news_item.testo }} </div>
+                <a href=" {{ news_item.link }} " target="_blank" class="bottone-verde newsbutton w-button"> {{ news_item.testo_bottone }} </a>
               </div>
             </div>
           </div>
