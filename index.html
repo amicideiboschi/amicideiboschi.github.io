@@ -1,16 +1,3 @@
----
-immagine: ''
-titolo: ''
-testo: ''
-link: ''
-blocco-notizie:
-- template: new-ed-eventi
-  titolo: titolo
-  testo: testo
-  immagine: ''
-  link: ''
-
----
 <!DOCTYPE html>
 <html data-wf-page="60e07a81280a6b06d4a814c2" data-wf-site="60e07a81280a6b7bf9a814c1">
 <head>
@@ -104,22 +91,23 @@ blocco-notizie:
     <div data-delay="3000" data-animation="slide" class="slider-news w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="true" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="1000" data-infinite="true">
       <div class="mask w-slider-mask">
         
-        {% for block in homepage.news %}
-
-        <div class="slide-news w-slide">
-          <div class="div-slide-single-news">
-            <div class="single-news">
-              <div class="div-immagine-news"><img src="{{ news_item.immagine }}" loading="lazy" sizes="(max-width: 479px) 72vw, (max-width: 767px) 65vw, (max-width: 991px) 46vw, 28vw" srcset="images/Il-Bosco-dei-Piccoli.jpeg 500w, images/Il-Bosco-dei-Piccoli.jpeg 800w, images/Il-Bosco-dei-Piccoli.jpeg 940w" alt="" class="immagine-news"></div>
-              <div class="news-title">{{ news_item.titolo }}</div>
-              <div class="news-text">{{ news_item.testo }}</div>
-              <a href="{{ news_item.link }}" class="bottone-verde newsbutton w-button">Scrivici!</a>
+        {% for %}
+        
+          <div class="slide-news w-slide">
+            <div class="div-slide-single-news">
+              <div class="single-news">
+                <div class="div-immagine-news"><img src="images/Una-notte-alla-Vernavola.jpeg" loading="lazy" sizes="(max-width: 479px) 72vw, (max-width: 767px) 65vw, (max-width: 991px) 46vw, 28vw" srcset="images/Una-notte-alla-Vernavola-p-500.jpeg 500w, images/Una-notte-alla-Vernavola-p-800.jpeg 800w, images/Una-notte-alla-Vernavola.jpeg 940w" alt="" class="immagine-news"></div>
+                <div class="news-title">Una notte alla Vernavola</div>
+                <div class="news-text">Venerdì 27 maggio, 21.15-22.30.<br>Parco della Vernavola, ingresso via Acerbi.<br>Per tutte le età!<br>
+                  <a href="mailto:ilsentierodeipiccoli@gmail.com?subject=Il%20Bosco%20dei%20Piccoli"></a>
+                </div>
+                <a href="https://bit.ly/VERNAVOLADINOTTE" target="_blank" class="bottone-verde newsbutton w-button">Prenota!</a>
+              </div>
             </div>
           </div>
-        </div>
-
+        
         {% endfor %}
 
-      </div>
       <div class="w-slider-arrow-left">
         <div class="w-icon-slider-left"></div>
       </div>
