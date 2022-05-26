@@ -3,9 +3,12 @@ label: Home
 hide_body: false
 fields:
 - name: container
-  type: include
-  config: {}
-  template: notizie
+  type: blocks
   label: Contenitore
+  template_types:
+  - notizie
+  config:
+    min: 
+    max: 
 pages:
 - index.html
