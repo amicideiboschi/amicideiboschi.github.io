@@ -1,5 +1,2 @@
-type: blocks
-name: notizie
-label: Notizie
-template_types:
-
+collection:
+  news:
