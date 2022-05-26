@@ -20,3 +20,8 @@ fields:
 - type: list
   name: container
   label: container
+- name: albero
+  type: include
+  config: {}
+  template: wrap-notizie
+  label: Albero
