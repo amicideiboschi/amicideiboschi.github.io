@@ -1,4 +1,41 @@
 ---
 label: Wrap notizie
 hide_body: true
-fields: []
+fields:
+- name: notizie
+  type: field_group_list
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 5
+    label: Immagine
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Notizie
+- name: title
+  type: text
+  config:
+    required: true
+  label: Titolo
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Testo
+- name: button
+  type: text
+  config:
+    required: true
+  label: Bottone
+- name: link
+  type: text
+  config:
+    required: true
+  label: Link
