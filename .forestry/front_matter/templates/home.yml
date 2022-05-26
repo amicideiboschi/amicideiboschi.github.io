@@ -7,3 +7,5 @@ fields:
   config: {}
   template: notizie
   label: Contenitore
+pages:
+- index.html
